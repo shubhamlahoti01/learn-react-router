@@ -23,7 +23,7 @@ function CareerDetails() {
 export const careerDetailsLoader = async ({ params }) => {
   const { id } = params;
   const res = await fetch(
-    `https://my-json-server.typicode.com/shubhamlahoti01/learn-react-router-jsonapi/careers' +
+    `https://my-json-server.typicode.com/shubhamlahoti01/learn-react-router-jsonapi/careers/' +
       ${id}`
   );
   if (!res.ok) {
